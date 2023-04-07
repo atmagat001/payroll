@@ -31,12 +31,29 @@
 
         <div class="payroll-info wrapper " >
             <h4>Enter Payroll Information</h4>
-            <label for="">Monthly Gross Pay</label>
-            <input type="text" id="monthlyPay" placeholder="Monthly Gross Pay">
-            <label for="">Required Work Hours</label>
-            <input type="text" id="requiredHours" placeholder="Required Work Hours">
-            <label for="">Actual Work Hours</label>
-            <input type="text" id="actualHours" placeholder="Paid Work Hours">
+            <div class="input-box">
+                
+                <input type="text" id="monthlyPay" required="true" placeholder="">
+                <span for="">Monthly Gross Pay</span>
+
+            </div>
+            
+            <div class="input-box">
+            <input type="text" id="requiredHours" required="true" placeholder="">
+            <span for="">Required Work Hours</span>
+            
+            
+
+            </div>
+
+            <div class="input-box">
+                <input type="text" id="actualHours" required="true" placeholder="">
+                <span for="">Actual Work Hours</span>
+            </div>
+            
+            
+            
+            
             
            
            
@@ -47,19 +64,61 @@
 
         <div class="wrapper-detail wrapper">
             <h3>Gross Pay</h3>
-            <label for="">Basic Pay</label><input type="text" id="basic"  placeholder="basic pay">
-            <label for="">Allowances</label><input type="text" id="allowance" placeholder="allowance" >
-            <label for="">Commissions</label><input type="text" id="commission" placeholder="commission">
-            <label for="">Adjustments</label><input type="text" id="adjustments" placeholder="adjustments">
+            <div class="input-box">
+                <input type="text" id="basic"  required="false" placeholder="">
+                <span for="">Basic Pay</span>
+            
+            </div>
+
+            <div class="input-box">
+                <input type="text" id="allowance" required="false" placeholder="" >
+                <span for="">Allowances</span>
+            
+            </div>
+            
+            <div class="input-box">
+                <input type="text" id="commission" required="false" placeholder="">
+                <span for="">Commissions</span>
+
+            </div>
+            
+           <div class="input-box">
+                <input type="text" id="adjustments" required="false" placeholder="">
+                <span for="">Adjustments</span>
+           </div>
+            
+            
+           
             
         </div>
       
         <div class="wrapper-detail wrapper">
+
             <h3>Deductions</h3>
-            <label for="">SSS</label><input type="text" id="sss"  placeholder="sss">
-            <label for="">Philhealth</label><input type="text" id="phl" placeholder="phl">
-            <label for="">Pag-ibig</label><input type="text" id="pagibig" placeholder="pagibig">
-            <label for="">Taxes</label><input type="text" id="taxes" placeholder="taxes">
+            
+            <div class="input-box">
+                <input type="text" id="sss" required="false" placeholder="">
+                <span for="">SSS</span>    
+
+            </div>
+
+            <div class="input-box">
+                <input type="text" id="phl" required="false" placeholder="">
+                <span for="">Philhealth</span>
+            </div>
+            
+            <div class="input-box">
+                <input type="text" id="pagibig" required="false" placeholder="">
+                <span for="">Pag-ibig</span>
+            </div>
+
+            <div class="input-box">
+                <input type="text" id="taxes" required="false" placeholder="">
+                <span for="">Taxes</span>
+            </div>
+            
+            
+            
         
         </div>
 
