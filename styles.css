@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    
+    
+}
+
+body {
+  background-color: white;
+
+
+}
+
+header {
+    padding: 30px 0;
+    background-color: #7AA874;
+}
+
+
+div {
+    display: flex;
+    flex-flow: column;
+    
+
+}
+
+input {
+ margin: 10px;
+ border: solid 1px;
+ padding: 10px;
+ border-radius: 10px;
+ font-size: 1rem;
+
+}
+
+h1 {
+    
+    text-align: center;
+}
+
+h3, h4 {
+    padding: 5px;
+}
+
+.wrapper {
+    padding: 10px;
+    font-size: 1.25rem;
+    display: flex;
+    flex-flow: column;
+}
+
+
+.wrapper-detail {
+    padding: 10px;
+}
+
+button {
+    margin: 20px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #245953;
+    color: white;
+
+}
